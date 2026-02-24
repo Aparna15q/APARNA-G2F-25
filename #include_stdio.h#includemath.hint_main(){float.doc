@@ -1,0 +1,38 @@
+﻿
+            <html xmlns:o="urn:schemas-microsoft-com:office:office" 
+                  xmlns:w="urn:schemas-microsoft-com:office:word" 
+                  xmlns="http://www.w3.org/TR/REC-html40">
+            <head>
+                <meta charset="utf-8">
+                <title>#include &lt;stdio.h&gt;#include&lt;math.h&gt;int main(){float</title>
+                <!--[if gte mso 9]>
+                <xml>
+                    <w:WordDocument>
+                        <w:View>Print</w:View>
+                        <w:Zoom>100</w:Zoom>
+                    </w:WordDocument>
+                </xml>
+                <![endif]-->
+                <style>
+                    @page {
+                        size: 8.5in 11in;
+                        margin: 1in;
+                    }
+                    body {
+                        font-family: Arial, sans-serif;
+                        font-size: 12pt;
+                        line-height: 1.5;
+                    }
+                    h1 { font-size: 24pt; }
+                    h2 { font-size: 18pt; }
+                    h3 { font-size: 14pt; }
+                    table { border-collapse: collapse; width: 100%; }
+                    th, td { border: 1px solid #000; padding: 8px; }
+                    th { background-color: #f0f0f0; }
+                </style>
+            </head>
+            <body>
+                <p><!--StartFragment--><!--EndFragment--></p><div><div>#include &lt;stdio.h&gt;</div><div>#include&lt;math.h&gt;</div><div>int main()</div><div>{</div><div>float a,b,c;</div><div>float r1,r2,realpart,imaginarypart,discriminant;</div><div>printf("enter the coefficients a b c ");</div><div>scanf("%f%f%f",&amp;a,&amp;b,&amp;c);</div><div>if(a==0)</div><div>{</div><div>&nbsp; &nbsp; printf("not a quadratic equation");</div><div>&nbsp; &nbsp; return 0;</div><div>}</div><div>discriminant=(b*b) + (4*a*c);</div><div>if(discriminant&gt;0)</div><div>{</div><div>&nbsp; &nbsp; r1=-b+sqrt(discriminant)/(2*a);</div><div>&nbsp; &nbsp; r2=-b-sqrt(discriminant)/(2*a);</div><div>&nbsp; &nbsp; printf("roots are real and different.\n");</div><div>&nbsp; &nbsp; printf("r1=%.2f\n",r1);</div><div>&nbsp; &nbsp; printf("r2=%.2f\n",r2);</div><br><div>}</div><div>else if(discriminant==0)</div><div>{</div><div>&nbsp; &nbsp; r1=-b/2*a;</div><div>&nbsp; &nbsp; printf("the root is real and equal,\n");</div><div>&nbsp; &nbsp; printf("r1=r2=%.2f\n",r1);</div><div>}</div><div>else</div><div>{</div><div>&nbsp; &nbsp; realpart=-b/(2*a);</div><div>&nbsp; &nbsp; imaginarypart=sqrt(-discriminant)/(2*a);</div><div>&nbsp; &nbsp; printf("roots are complex and different.\n");</div><div>&nbsp; &nbsp; printf("r1=%.2f\n",r1);</div><div>&nbsp; &nbsp; printf("r2=%.2f\n",r2);</div><div>}</div><div>return 0;</div><div>}</div><br><br></div>
+            </body>
+            </html>
+        
